@@ -1,0 +1,82 @@
+/* .first {
+    width: 20%;
+    border-radius: 25px;
+    background-color: rgb(15, 66, 66);
+
+} */
+.first {
+    width: 20%;
+    border-radius: 25px;
+    background-color: rgb(15, 66, 66);
+
+}
+
+@media (max-width: 400px) {
+    .first {
+        width: 80%;
+    }
+}
+
+.second {
+    background-color: rgb(15, 66, 66);
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+.button {
+    background-color: rgb(15, 66, 66);
+    color: black;
+    width: 20%;
+    height: 50px;
+    border-radius: 3px;
+    align-items: center;
+    color: white;
+    border: none;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(15, 66, 66);
+}
+.button-row{
+    background-color: rgb(15, 66, 66);
+    border-radius: 25px;
+}
+.button1{
+    background-color: rgb(15, 66, 66);
+    color: black;
+    width: 60%;
+    height: 50px;
+    border-radius: 3px;
+    align-items: center;
+    color: white;
+    border: none;
+
+
+}
+.button1:hover{
+    background-color: rgb(170, 93, 10);
+    color:white ;
+}
+.button2{
+    background-color: rgb(170, 93, 10);
+    color: black;
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    border: none;
+
+
+}
+.button2:hover{
+    background-color: white;
+    color: rgb(170, 93, 10) ;
+}
+
+
+
+
